@@ -1,27 +1,27 @@
-#include<iostream>
-#include<conio.h>
-#include<stdio.h>
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
 using namespace std;
 class krug
 {
 public:
-	int b;
+	int x;
 float gets()
 {
- return 3.14*(b*b);
+ return 3.14*(x*x);
 }
 float getp()
 {
-	return 2*3.14*b;
+	return 2*3.14*x;
 }
 };
 void main()
 {
-krug A;
-A.b=12;
-cout<<"S="<<A.gets();
+krug y;
+y.x=12;
+cout<<"S="<<y.gets();
 cout<<" ";
-cout<<"P="<<A.getp();
+cout<<"P="<<y.getp();
 system("pause");
 }
 
